@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viral Video</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #0b0f14;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 25px 16px;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #aeb7c2;
+      margin-bottom: 22px;
+    }
+
+    .video-box {
+      background: #151b23;
+      border-radius: 16px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 12px;
+      display: block;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      border-radius: 12px;
+      background: #1877f2;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .note {
+      font-size: 12px;
+      margin-top: 18px;
+      color: #77818d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🔥 Viral Video</h1>
+
+    <p>Watch the latest trending video</p>
+
+    <div class="video-box">
+      <video controls playsinline poster="">
+        <source src="YOUR_VIDEO_URL_HERE" type="video/mp4">
+        Your browser does not support video playback.
+      </video>
+    </div>
+
+    <a
+      class="button"
+      href="YOUR_MONETIZED_LINK_HERE"
+      target="_blank"
+      rel="noopener noreferrer">
+      ▶ Watch / Continue
+    </a>
+
+    <div class="note">
+      The button opens the linked page in a new tab.
+    </div>
+
+  </div>
+
+</body>
+</html>
